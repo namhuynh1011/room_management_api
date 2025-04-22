@@ -1,0 +1,12 @@
+// routes/index.js
+import authRouter from './auth.js';
+
+const initRoutes = (app) => {
+    app.use('/api/v1/auth', authRouter);
+
+    app.use('/', (req, res) => {
+        res.send('Server is running');
+    });
+};
+
+export default initRoutes;
