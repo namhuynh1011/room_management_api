@@ -1,38 +1,29 @@
 {
-  "name": "room_management_api",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon --exec babel-node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/namhuynh1011/room_management_api.git"
+    "start": "nodemon --exec babel-node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/namhuynh1011/room_management_api/issues"
-  },
-  "homepage": "https://github.com/namhuynh1011/room_management_api#readme",
   "dependencies": {
-    "bcryptjs": "^3.0.2",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "mysql2": "^3.14.0",
-    "nodemon": "^3.1.9",
-    "redux-thunk": "^3.1.0",
-    "sequelize": "^6.37.7"
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19",
+    "sequelize": "^6.21.3",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.26.10",
-    "@babel/node": "^7.26.0",
-    "@babel/preset-env": "^7.26.9",
-    "sequelize-cli": "^6.6.2"
+    "@babel/core": "^7.18.10",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "sequelize-cli": "^6.4.1"
   }
 }
