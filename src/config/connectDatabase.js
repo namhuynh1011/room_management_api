@@ -1,11 +1,10 @@
 const { Sequelize } = require('sequelize');
 
 // Option 3: Passing parameters separately (other dialects)
-const sequelize = new Sequelize('room_management', 'root', '123456', {
+const sequelize = new Sequelize('room_management', 'root', "123456", {
     host: 'localhost',
     dialect: 'mysql',
-    logging: false, // Disable logging; default: console.log
-
+    logging: false
 });
 
 const connectDatabase = async () => {
@@ -17,4 +16,4 @@ const connectDatabase = async () => {
     }
 }
 
-export default connectDatabase;
+export default connectDatabase
